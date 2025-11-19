@@ -9,7 +9,7 @@ Swift랑 iOS 개발공부 기록장입니다.
 |-----|------|-------------|
 | 1 | Swift 기본 문법 | 변수, 상수, 조건문, 반복문, 함수 등 기초 다지기 |
 | 2 | Swift 기본 심화 | guard let, toggle, 반복문, switch, 간단 함수, optional 기초 |
-
+| 3 | Swift 실습 - 랜덤 기능 | randomElement 활용 / 메뉴추천 / 가위바위보 게임 |
 ---
 
 ## 🎯 목표  
