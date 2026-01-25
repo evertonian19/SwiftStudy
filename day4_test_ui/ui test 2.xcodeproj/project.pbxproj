@@ -3,49 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF340F732F1A78E80058824F /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340F6D2F1A78E80058824F /* PlayerCell.swift */; };
+		EF340F742F1A78E80058824F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340F652F1A78E80058824F /* AppDelegate.swift */; };
+		EF340F752F1A78E80058824F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340F702F1A78E80058824F /* SecondViewController.swift */; };
+		EF340F762F1A78E80058824F /* memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340F6C2F1A78E80058824F /* memo.swift */; };
+		EF340F772F1A78E80058824F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340F6F2F1A78E80058824F /* SceneDelegate.swift */; };
+		EF340F782F1A78E80058824F /* positioncolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340F6E2F1A78E80058824F /* positioncolor.swift */; };
+		EF340F792F1A78E80058824F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF340F712F1A78E80058824F /* ViewController.swift */; };
+		EF340F7A2F1A78E80058824F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF340F6B2F1A78E80058824F /* Main.storyboard */; };
+		EF340F7C2F1A78E80058824F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF340F662F1A78E80058824F /* Assets.xcassets */; };
+		EF340F7D2F1A78E80058824F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF340F692F1A78E80058824F /* LaunchScreen.storyboard */; };
+		EF9B27512F25EC8500540DDD /* EditplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B27502F25EC7700540DDD /* EditplayerViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		EF473D332EE6D2AC00529782 /* ui test 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ui test 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF340F652F1A78E80058824F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF340F662F1A78E80058824F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF340F672F1A78E80058824F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF340F682F1A78E80058824F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF340F6A2F1A78E80058824F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF340F6C2F1A78E80058824F /* memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memo.swift; sourceTree = "<group>"; };
+		EF340F6D2F1A78E80058824F /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		EF340F6E2F1A78E80058824F /* positioncolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = positioncolor.swift; sourceTree = "<group>"; };
+		EF340F6F2F1A78E80058824F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF340F702F1A78E80058824F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EF340F712F1A78E80058824F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF473D332EE6D2AC00529782 /* ui_test_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ui_test_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9B27502F25EC7700540DDD /* EditplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditplayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EF473D452EE6D2AD00529782 /* Exceptions for "ui test 2" folder in "ui test 2" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = EF473D322EE6D2AC00529782 /* ui test 2 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF473D352EE6D2AC00529782 /* ui test 2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EF473D452EE6D2AD00529782 /* Exceptions for "ui test 2" folder in "ui test 2" target */,
-			);
-			path = "ui test 2";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF473D302EE6D2AC00529782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF340F722F1A78E80058824F /* day4_test_ui 2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF340F652F1A78E80058824F /* AppDelegate.swift */,
+				EF340F662F1A78E80058824F /* Assets.xcassets */,
+				EF340F672F1A78E80058824F /* Info.plist */,
+				EF340F692F1A78E80058824F /* LaunchScreen.storyboard */,
+				EF340F6B2F1A78E80058824F /* Main.storyboard */,
+				EF340F6C2F1A78E80058824F /* memo.swift */,
+				EF340F6D2F1A78E80058824F /* PlayerCell.swift */,
+				EF340F6E2F1A78E80058824F /* positioncolor.swift */,
+				EF340F6F2F1A78E80058824F /* SceneDelegate.swift */,
+				EF340F702F1A78E80058824F /* SecondViewController.swift */,
+				EF9B27502F25EC7700540DDD /* EditplayerViewController.swift */,
+				EF340F712F1A78E80058824F /* ViewController.swift */,
+			);
+			path = "day4_test_ui 2";
+			sourceTree = "<group>";
+		};
 		EF473D2A2EE6D2AC00529782 = {
 			isa = PBXGroup;
 			children = (
-				EF473D352EE6D2AC00529782 /* ui test 2 */,
+				EF340F722F1A78E80058824F /* day4_test_ui 2 */,
 				EF473D342EE6D2AC00529782 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +75,7 @@
 		EF473D342EE6D2AC00529782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF473D332EE6D2AC00529782 /* ui test 2.app */,
+				EF473D332EE6D2AC00529782 /* ui_test_3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,16 +93,9 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF473D352EE6D2AC00529782 /* ui test 2 */,
-			);
 			name = "ui test 2";
-			packageProductDependencies = (
-			);
 			productName = "ui test 2";
-			productReference = EF473D332EE6D2AC00529782 /* ui test 2.app */;
+			productReference = EF473D332EE6D2AC00529782 /* ui_test_3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +122,7 @@
 			);
 			mainGroup = EF473D2A2EE6D2AC00529782;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = EF473D342EE6D2AC00529782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,33 +135,60 @@
 /* Begin PBXResourcesBuildPhase section */
 		EF473D312EE6D2AC00529782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				EF340F7A2F1A78E80058824F /* Main.storyboard in Resources */,
+				EF340F7C2F1A78E80058824F /* Assets.xcassets in Resources */,
+				EF340F7D2F1A78E80058824F /* LaunchScreen.storyboard in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF473D2F2EE6D2AC00529782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				EF340F732F1A78E80058824F /* PlayerCell.swift in Sources */,
+				EF340F742F1A78E80058824F /* AppDelegate.swift in Sources */,
+				EF340F752F1A78E80058824F /* SecondViewController.swift in Sources */,
+				EF9B27512F25EC8500540DDD /* EditplayerViewController.swift in Sources */,
+				EF340F762F1A78E80058824F /* memo.swift in Sources */,
+				EF340F772F1A78E80058824F /* SceneDelegate.swift in Sources */,
+				EF340F782F1A78E80058824F /* positioncolor.swift in Sources */,
+				EF340F792F1A78E80058824F /* ViewController.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		EF340F692F1A78E80058824F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF340F682F1A78E80058824F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EF340F6B2F1A78E80058824F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF340F6A2F1A78E80058824F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		EF473D472EE6D2AD00529782 /* Debug */ = {
+		EF473D472EE6D2AD00529782 /* Debug configuration for PBXNativeTarget "ui test 2" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ui test 2/Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "day4_test_ui 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(EXECUTABLE_NAME)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -157,8 +199,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evertonian.ui-test-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eundy.SwiftStudy.Day4;
+				PRODUCT_NAME = ui_test_3;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -169,15 +212,16 @@
 			};
 			name = Debug;
 		};
-		EF473D482EE6D2AD00529782 /* Release */ = {
+		EF473D482EE6D2AD00529782 /* Release configuration for PBXNativeTarget "ui test 2" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ui test 2/Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "day4_test_ui 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(EXECUTABLE_NAME)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -188,8 +232,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evertonian.ui-test-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eundy.SwiftStudy.Day4;
+				PRODUCT_NAME = ui_test_3;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -200,7 +245,7 @@
 			};
 			name = Release;
 		};
-		EF473D492EE6D2AD00529782 /* Debug */ = {
+		EF473D492EE6D2AD00529782 /* Debug configuration for PBXProject "ui test 2" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		EF473D4A2EE6D2AD00529782 /* Release */ = {
+		EF473D4A2EE6D2AD00529782 /* Release configuration for PBXProject "ui test 2" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,19 +370,17 @@
 		EF473D2E2EE6D2AC00529782 /* Build configuration list for PBXProject "ui test 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF473D492EE6D2AD00529782 /* Debug */,
-				EF473D4A2EE6D2AD00529782 /* Release */,
+				EF473D492EE6D2AD00529782 /* Debug configuration for PBXProject "ui test 2" */,
+				EF473D4A2EE6D2AD00529782 /* Release configuration for PBXProject "ui test 2" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		EF473D462EE6D2AD00529782 /* Build configuration list for PBXNativeTarget "ui test 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF473D472EE6D2AD00529782 /* Debug */,
-				EF473D482EE6D2AD00529782 /* Release */,
+				EF473D472EE6D2AD00529782 /* Debug configuration for PBXNativeTarget "ui test 2" */,
+				EF473D482EE6D2AD00529782 /* Release configuration for PBXNativeTarget "ui test 2" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
