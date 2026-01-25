@@ -10,8 +10,8 @@ Swift랑 iOS 개발공부 기록장입니다.
 | 1 | Swift 기본 문법 | 변수, 상수, 조건문, 반복문, 함수 등 기초 다지기 |
 | 2 | Swift 기본 심화 | guard let, toggle, 반복문, switch, 간단 함수, optional 기초 |
 | 3 | Swift 실습 - 랜덤 기능 | randomElement 활용 / 메뉴추천 / 가위바위보 게임 |
-| 4 | UIKit 실습 - 선수 영입 목록 앱 | UITableView 기반 CRUD, 수정/삭제 흐름 이해 |
-
+| 4-1 | `day4_1_alert` | UIKit CRUD (Alert) | TableView + 추가/삭제/수정(Alert) |
+| 4-2 | `day4_2_scrollpicker` | UIKit UX 실험 | Alert → ScrollPicker(가로 스크롤 선택) |
 ---
 
 ## Day4 – UIKit 실습 : 축구선수 메모 앱
