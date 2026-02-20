@@ -12,6 +12,7 @@ Swift랑 iOS 개발공부 기록장입니다.
 | 3 | Swift 실습 - 랜덤 기능 | randomElement 활용 / 메뉴추천 / 가위바위보 게임 |
 | 4-1 | `day4_1_alert` | UIKit CRUD (Alert) | TableView + Alert 수정 |
 | 4-2 | `day4_2_scrollpicker` | UIKit 선택 UI 개선 | Bottom Sheet + ScrollPicker |
+| 4-3 | `day4_3_card` | 리스트 UI 고도화 (카드형 레이아웃) | 메모 형태를 이미지 중심의 카드 UI로 전면 개편 |
 ---
 
 ## Day4 – UIKit 실습 : 축구선수 메모 앱
@@ -21,6 +22,11 @@ Swift랑 iOS 개발공부 기록장입니다.
 - 선수 추가 / 삭제 / 수정(CRUD) 기능 구현
 - 포지션에 따른 UI 색상 분기 처리
 - struct 기반 데이터 모델 설계
+- UI 디자인 개편: 단순 텍스트 메모 형태에서 탈피하여, 선수 이미지를 강조한 **카드형(Card View)** UI로 전면 개편
+- 이미지 데이터 바인딩:** `UIImageView`를 추가하고 선수별 프로필 사진을 동적으로 매칭
+- 시각적 계층 구조(Hierarchy) 개선
+  - `Stack View`를 활용하여 선수 정보(국가, 팀, 이름, 주발)를 논리적으로 배치
+  - 배경색과 `Corner Radius`를 활용하여 개별 카드의 시인성 확보
 
 ### 🧠 학습 포인트
 - UITableViewDataSource / Delegate 역할 이해
