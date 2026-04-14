@@ -1,6 +1,6 @@
 
 ---
-
+---
 | 1 | 변수, 상수, 조건문, 반복문, 함수 등 기초 다지기 |
 | 2 | guard let, toggle, 반복문, switch, 간단 함수, optional 기초 |
 | 3 | randomElement 활용 / 메뉴추천 / 가위바위보 게임 |
