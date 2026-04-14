@@ -1,18 +1,15 @@
-# SwiftStudy  
-Swift랑 iOS 개발공부 기록장입니다.  
-하루하루 배우면서 느낀점이나 실습코드를 정리하는 용도입니다.
 
 ---
 
 ##  Day별 학습 기록
 | Day | 주제 | 한 줄 정리 |
 |-----|------|-------------|
-| 1 | Swift 기본 문법 | 변수, 상수, 조건문, 반복문, 함수 등 기초 다지기 |
-| 2 | Swift 기본 심화 | guard let, toggle, 반복문, switch, 간단 함수, optional 기초 |
-| 3 | Swift 실습 - 랜덤 기능 | randomElement 활용 / 메뉴추천 / 가위바위보 게임 |
-| 4-1 | `day4_1_alert` | UIKit CRUD (Alert) | TableView + Alert 수정 |
-| 4-2 | `day4_2_scrollpicker` | UIKit 선택 UI 개선 | Bottom Sheet + ScrollPicker |
-| 4-3 | `day4_3_card` | 리스트 UI 고도화 (카드형 레이아웃) | 메모 형태를 이미지 중심의 카드 UI로 전면 개편 |
+| 1 | 변수, 상수, 조건문, 반복문, 함수 등 기초 다지기 |
+| 2 | guard let, toggle, 반복문, switch, 간단 함수, optional 기초 |
+| 3 | randomElement 활용 / 메뉴추천 / 가위바위보 게임 |
+| 4-1 | UIKit CRUD (Alert) | TableView + Alert 수정 |
+| 4-2 | UIKit 선택 UI 개선 | Bottom Sheet + ScrollPicker |
+| 4-3 | 리스트 UI 고도화 (카드형 레이아웃) | 메모 형태를 이미지 중심의 카드 UI로 전면 개편 |
 ---
 
 ## Day4 – UIKit 실습 : 축구선수 메모 앱
@@ -34,14 +31,5 @@ Swift랑 iOS 개발공부 기록장입니다.
 - ViewController 간 데이터 전달 개념 정리
 - UIKit 기반 CRUD 기본 구조 익히기
 
----
 
-## 🎯 목표  
-- Swift / UIKit 기본 구조에 대한 감각 확보 
-- KDT 수업 전 예습 및 감각 살리기  
-- 매일 최소 한 줄 이상의 직접 코드 작성
-
----
-
-📌 **작성자:** Evertonian19
  
